@@ -1,0 +1,36 @@
+
+nav ul {
+    display: flex;/*permet d'aligner les éléments*/
+list-style-type: none;/*enlève les points devant les listes N-O*/
+justify-content: center;/* permet de centrer tout le contenu*/
+gap: 50PX;/*Mettre des espaces entre les eleemnts flex*/
+}
+
+nav a { 
+    text-decoration: none; /* empêche les liens d'etre souligner*/
+    color: black;
+}
+/* changer de couleur en survolant */
+nav a:hover {
+    color:red;
+}
+section {
+    margin-top: 50px;        
+}
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 800px;
+}
+.presentation{
+    margin: auto;
+    text-align: center;
+    padding-left: 50px;
+}
+.image1{
+    margin: auto;
+}
+
+.image1 img{
+    max-width: 100%;
+}
